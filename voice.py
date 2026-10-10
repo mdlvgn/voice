@@ -26,6 +26,7 @@ VOICES = {
 # simulée en ajoutant des écarts de vitesse, de pitch et de volume.
 # nom : (écart vitesse en %, écart pitch en Hz, volume en %)
 EMOTIONS = {
+    "⚙️ Custom": (0, 0, 0),  # aucun écart : seuls tes curseurs comptent
     "😐 Neutre": (0, 0, 0),
     "😄 Joyeux": (+10, +15, +10),
     "😢 Triste": (-20, -15, -15),
